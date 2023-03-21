@@ -1,0 +1,100 @@
+/*
+Theme Name: Aravalli
+Theme URI: https://www.nayrathemes.com/aravalli-free/
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: Aravalli is a WordPress theme crafted for a hotel, hostel, resort, apartment, room reservation, tourism business or any other accommodation services. It has a unique, modern, light and clean design which will make your website look awesome. View the demo of Aravalli Pro https://www.nayrathemes.com/demo/pro/?theme=aravalli
+Version: 1.5
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: aravalli
+Template : aravalli
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, food-and-drink, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/* gallery cross button style */
+button.featherlight-close-icon.featherlight-close {
+    background-color: var(--bs-primary);
+    border: 1px solid #ffffff;
+    top: 40px;
+    right: 40px;
+    border-radius: 0;
+}
+
+/* circle hover */
+.is-style-circle figure.tiled-gallery__item:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #000;
+    border-radius: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.65s;
+}
+.is-style-circle figure.tiled-gallery__item:hover:before,
+.is-style-circle figure.tiled-gallery__item:focus:before{
+    visibility: visible;
+    opacity: 0.5;
+}
+
+/* circle spacing */
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row{
+	margin-right: calc(-.4 * var(--bs-gutter-x));
+    margin-left: calc(-.4 * var(--bs-gutter-x));
+    --bs-gutter-x: 1.5rem;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row>* {
+    padding-right: calc(var(--bs-gutter-x) * .4);
+    padding-left: calc(var(--bs-gutter-x) * .4);
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row+.tiled-gallery__row {
+    margin-top: 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__col+.tiled-gallery__col {
+    margin-left: 0px;
+}
+
+/* circle box shadow */
+.wp-block-jetpack-tiled-gallery.is-style-circle .tiled-gallery__item {
+    border-radius: 50%;
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery.is-style-rectangular .tiled-gallery__item {
+    width: 100%!important;
+    height: 100%!important;
+	box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__item {
+	box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__gallery{
+	justify-content: center;
+}
+
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item{
+	width: 100%!important;
+	margin-bottom: 20px
+}
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item:last-child{
+	margin-bottom: 0px
+}
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item {
+    margin-top: 0px;
+}

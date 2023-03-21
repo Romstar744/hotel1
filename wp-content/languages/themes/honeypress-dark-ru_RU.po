@@ -1,0 +1,276 @@
+# Translation of Themes - Honeypress Dark in Russian
+# This file is distributed under the same license as the Themes - Honeypress Dark package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-16 09:47:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Honeypress Dark\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "HoneyPress Dark WordPress Theme is a lightweight, elegant, fully responsive theme. Those who want the dark variation can use this theme. It allows you to create stunning blogs and websites. The theme is well suited for companies, law firms, e-commerce, finance, agency, travel, photography, design, arts, personal, and any other creative websites and blogs. It comes with a predesigned home page, good-looking header designs and a number of content sections that you can easily customize. It also has lots of customization options (banner, services, testimonial, etc) that will help you create a beautiful, unique website in no time. HoneyPress is compatible with popular plugins like WPML, Polylang, WooCommerce, and Contact Form 7."
+msgstr "HoneyPress Dark  от WordPress — легковесная, элегантная и отзывчивая тема. Она подойдет тем, кому нравятся темные темы. Тема позволяет создавать потрясающие блоги и сайты. Эта тема подходит для компаний, юридических фирм, электронной коммерции, финансовых, туристических, фото, персональных,  дизайнерских и различных творческих блогов и сайтов. Она поставляется с заранее разработанной домашней страницей, красивым дизайном заголовков и рядом рубрик содержимого, которые вы можете с легкостью настроить. Она также имеет множество параметров настройки (баннер, услуги, отзывы и т.п.), которые помогут мгновенно создать вам красивый, уникальный сайт. HoneyPress совместима с такими популярными плагинами, как WPML, Polylang, WooCommerce и Contact Form 7."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Honeypress Dark"
+msgstr "HoneyPress Dark"
+
+#: functions.php:51
+msgid "HoneyPress Dark"
+msgstr "HoneyPress Dark"
+
+#: admin/inc/include-companion.php:98
+msgid "Activate now"
+msgstr "Активировать сейчас"
+
+#: admin/inc/include-companion.php:97
+msgid "Activate SpiceBox now"
+msgstr "Активировать SpiceBox сейчас"
+
+#: admin/inc/include-companion.php:96
+msgid "You have installed the SpiceBox plugin. To take advantage of this theme's features in the customizer, you need to activate it."
+msgstr "Вы установили плагин SpiceBox. Чтобы воспользоваться полным спектром функций этой темы в настройщике, пожалуйста, активируйте плагин. "
+
+#: admin/inc/include-companion.php:80
+msgid "Install SpiceBox Now"
+msgstr "Установить SpiceBox сейчас"
+
+#: admin/inc/include-companion.php:79
+msgid "To take advantage of this theme's features in the customizer you need to install the SpiceBox plugin."
+msgstr "Чтобы воспользоваться полным спектром функций этой темы в настройщике, установите, пожалуйста, плагин SpiceBox."
+
+#: admin/inc/class-spicethemes-about-page.php:503
+msgid "You can add different banner image for a different page or post according to you"
+msgstr "Вы можете добавить разные баннеры для разных страниц или записей на ваше усмотрение"
+
+#: admin/inc/class-spicethemes-about-page.php:501
+msgid "Unique Headers"
+msgstr "Уникальные заголовки"
+
+#: admin/inc/class-spicethemes-about-page.php:497
+msgid "To display breadcrumbs, please install the Yoast SEO plugin."
+msgstr "Чтобы отобразить хлебные крошки, пожалуйста, установите плагин Yoast SEO."
+
+#: admin/inc/class-spicethemes-about-page.php:495
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: admin/inc/class-spicethemes-about-page.php:489
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: admin/inc/class-spicethemes-about-page.php:485
+msgid "To access the advance Frontpage sections and other theme features, please install the SpiceBox plugin."
+msgstr "Для доступа к продвинутым разделам главной страницы и другим функциям установите, пожалуйста, плагин SpiceBox."
+
+#: admin/inc/class-spicethemes-about-page.php:483
+#: admin/inc/include-companion.php:80 admin/inc/include-companion.php:97
+msgid "SpiceBox"
+msgstr "SpiceBox"
+
+#: admin/inc/class-spicethemes-about-page.php:339
+msgid "Active"
+msgstr "Активен"
+
+#: admin/inc/class-spicethemes-about-page.php:336
+msgid "Activate"
+msgstr "Активировать"
+
+#: admin/inc/class-spicethemes-about-page.php:334
+msgid "Activate %s now"
+msgstr "Активировать %s сейчас"
+
+#: admin/inc/class-spicethemes-about-page.php:317
+#: admin/inc/include-companion.php:81
+msgid "Install and activate"
+msgstr "Установить и активировать"
+
+#: admin/inc/class-spicethemes-about-page.php:315
+msgid "Install %s now"
+msgstr "Установить %s сейчас"
+
+#: admin/inc/class-spicethemes-about-page.php:242
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/inc/class-spicethemes-about-page.php:234
+msgid "Recommended Actions"
+msgstr "Рекомендуемые действия"
+
+#: admin/inc/class-spicethemes-about-page.php:134
+msgid "Get started with HoneyPress Dark theme"
+msgstr "Начните работу с темой HoneyPress Dark"
+
+#: admin/inc/class-spicethemes-about-page.php:133
+msgid "HoneyPress Dark theme is installed. To take full advantage of the features this theme has to offer visit our %1$s welcome page %2$s"
+msgstr "Тема HoneyPress Dark установлена. Чтобы воспользоваться всеми её преимуществами, посетите нашу %1$s приветственную страницу %2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:120
+msgid "Welcome to %1$s %2$s"
+msgstr "Добро пожаловать в %1$s%2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:119
+msgid "About %1$s %2$s"
+msgstr "Про %1$s %2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:111
+msgid "View Theme Info"
+msgstr "Просмотреть информацию о теме"
+
+#: admin/inc/class-spicethemes-about-page.php:72
+#: admin/inc/include-companion.php:43 admin/inc/plugin-include-control.php:42
+msgid "Error"
+msgstr "Ошибка"
+
+#: admin/inc/class-spicethemes-about-page.php:71
+#: admin/inc/include-companion.php:42 admin/inc/plugin-include-control.php:41
+msgid "Activating"
+msgstr "Активация"
+
+#: admin/inc/class-spicethemes-about-page.php:70
+#: admin/inc/include-companion.php:41 admin/inc/plugin-include-control.php:40
+msgid "Installing"
+msgstr "Установка"
+
+#: admin/tab-pages/getting-started.php:70
+msgid "Premium Theme Details"
+msgstr "Детали премиум-темы"
+
+#: admin/tab-pages/getting-started.php:64
+msgid "Your feedback is valuable to us"
+msgstr "Ваше мнение важно для нас"
+
+#: admin/tab-pages/getting-started.php:52
+msgid "PRO Demo"
+msgstr "Про-демо"
+
+#: admin/tab-pages/getting-started.php:46
+msgid "Lite Demo"
+msgstr "Lite демо"
+
+#: admin/tab-pages/getting-started.php:40
+msgid "Useful Links"
+msgstr "Полезные ссылки"
+
+#: admin/tab-pages/getting-started.php:32
+msgid "HoneyPress Dark theme"
+msgstr "Тема HoneyPress Dark"
+
+#: admin/tab-pages/getting-started.php:26
+msgid "Go to the Customizer"
+msgstr "Перейти к Настройщику"
+
+#: admin/tab-pages/getting-started.php:24
+msgid "To take full advantage of all the features this theme has to offer, install and activate the SpiceBox plugin. Go to Customize and install the SpiceBox plugin."
+msgstr "Если вы хотите воспользоваться полным спектром функций этой темы, пожалуйста, перейдите в настройки, установите и активируйте плагин SpiceBox ."
+
+#: admin/inc/class-spicethemes-about-page.php:229
+#: admin/tab-pages/getting-started.php:21
+msgid "Getting Started"
+msgstr "Приступая к работе"
+
+#: admin/tab-pages/getting-started.php:19
+msgid "You can use this theme for any type of activity. HoneyPress Dark is compatible with popular plugins like WPML and Polylang for the translation."
+msgstr "Вы можете использовать эту тему для любого вида деятельности. HoneyPress Dark совместима с такими популярными плагинами, как WPML и Polylang для перевода. "
+
+#: admin/tab-pages/getting-started.php:17
+msgid "This theme is ideal for creating corporate and business websites. HoneyPress Dark is a child theme of the HoneyPress WordPress theme. The premium version has tons of features like a homepage with many sections where you can feature unlimited slides, portfolios, user reviews, latest news, services, call to action and much more. Each section in the Homepage template is carefully designed to fit to all business requirements."
+msgstr "Эта тема идеально подходит для создания корпоративных и бизнес-сайтов. HoneyPress Dark - это дочерняя тема HoneyPress от WordPress. Эта премиум-версия имеет массу функций, например, домашнюю страницу с множеством разделов, где можно представить неограниченное количество слайдов, портфолио, пользовательских отзывов, свежих новостей, услуг, призывов к действию и др. Каждый раздел в шаблоне домашней страницы тщательно спроектирован таким образом, чтобы отвечать всем бизнес-требованиям."
+
+#: admin/tab-pages/getting-started.php:10
+msgid "About the HoneyPress Dark theme"
+msgstr "Про тему HoneyPress Dark"
+
+#: admin/tab-pages/useful_plugins.php:21
+msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr "Хотите быть в курсе последних изменений темы? Обратите внимание на список изменений ниже, чтобы иметь представление о последних исправлениях и новых функциях."
+
+#: admin/tab-pages/getting-started.php:91 admin/tab-pages/useful_plugins.php:20
+#: admin/tab-pages/useful_plugins.php:22
+msgid "Changelog"
+msgstr "Изменения"
+
+#: admin/tab-pages/useful_plugins.php:13
+msgid "We want to make sure you have the best experience using HoneyPress Dark, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using HoneyPress Dark as much as we enjoy creating great products."
+msgstr "Мы хотим убедиться, что, используя HoneyPress Dark, вы получаете самый лучший опыт, именно поэтому мы собрали всю необходимую вам информацию здесь. Надеемся, вы насладитесь, использованием HoneyPress Dark так же, как мы наслаждаемся созданием хороших продуктов. "
+
+#: admin/tab-pages/useful_plugins.php:12 admin/tab-pages/useful_plugins.php:14
+msgid "Contact Support"
+msgstr "Связаться с поддержкой"
+
+#: functions.php:51
+msgid "by SpiceThemes"
+msgstr "от SpiceThemes"
+
+#: functions.php:51
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"
+
+#: functions.php:51
+msgid "| Theme:"
+msgstr "| Тема:"
+
+#: functions.php:51
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:51
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
+
+#: functions.php:51
+msgid "Proudly powered by"
+msgstr "С гордостью работает на"
+
+#: index-news.php:73 index-news.php:104
+msgid "Read more"
+msgstr "Читать дальше"
+
+#: index-news.php:66 index-news.php:96
+msgid "By"
+msgstr "От"
+
+#: index-news.php:10
+msgid "Cras Vitae Placerat"
+msgstr "Cras Vitae Placerat"
+
+#: index-news.php:9
+msgid "Vitae Lacinia"
+msgstr "Vitae Lacinia"
+
+#: inc/header/header-nav.php:32 inc/header/header-nav.php:61
+msgid "Search…"
+msgstr "Поиск..."
+
+#: inc/header/header-nav.php:32 inc/header/header-nav.php:61
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/header/header-nav.php:11
+msgid "Toggle navigation"
+msgstr "Переключить навигацию"
+
+#: header.php:15
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://spicethemes.com/"
+msgstr "https://spicethemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "spicethemes"
+msgstr "spicethemes"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://spicethemes.com/honeypress-dark-wordpress-theme/"
+msgstr "https://spicethemes.com/honeypress-dark-wordpress-theme/"
